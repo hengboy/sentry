@@ -58,11 +58,6 @@ const colors = {
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // Old Colors
-  red: '#e03e2f',
-  redLight: '#FA5849',
-  redLightest: '#FDF6F5',
-  redDark: '#C72516',
-
   pink: '#F868BC',
   pinkLight: '#FF82D6',
   pinkDark: '#DF4FA3',
@@ -121,11 +116,11 @@ const alert = {
     background: colors.green400,
   },
   error: {
-    backgroundLight: colors.redLightest,
-    border: colors.redLight,
-    textLight: colors.redLight,
-    iconColor: colors.red,
-    background: colors.red,
+    backgroundLight: colors.red100,
+    border: colors.red400,
+    textLight: colors.red400,
+    iconColor: colors.red400,
+    background: colors.red400,
   },
 } as const;
 
@@ -147,7 +142,7 @@ const badge = {
 const aliases = {
   textColor: colors.gray800,
   success: colors.green400,
-  error: colors.red,
+  error: colors.red400,
   disabled: colors.gray400,
 } as const;
 
@@ -190,11 +185,11 @@ const button = {
   danger: {
     color: colors.white,
     colorActive: colors.white,
-    background: colors.red,
+    background: colors.red400,
     backgroundActive: '#bf2a1d',
     border: '#bf2a1d',
     borderActive: '#7d1c13',
-    focusShadow: color(colors.red)
+    focusShadow: color(colors.red400)
       .alpha(0.5)
       .string(),
   },

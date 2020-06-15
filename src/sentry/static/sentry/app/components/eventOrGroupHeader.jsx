@@ -160,7 +160,7 @@ const iconStyles = css`
 
 const Muted = styled('span')`
   ${iconStyles};
-  color: ${p => p.theme.red};
+  color: ${p => p.theme.red400};
 `;
 
 const Starred = styled('span')`
@@ -186,7 +186,7 @@ const GroupLevel = styled('div')`
       case 'error':
         return p.theme.orange400;
       case 'fatal':
-        return p.theme.red;
+        return p.theme.red400;
       default:
         return p.theme.gray500;
     }

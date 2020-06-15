@@ -9,7 +9,7 @@ function getLevelColor({level = '', theme}) {
     error: theme.orange400,
     info: theme.blue400,
     warning: theme.orange300,
-    fatal: theme.red,
+    fatal: theme.red400,
     sample: theme.purple,
   };
 

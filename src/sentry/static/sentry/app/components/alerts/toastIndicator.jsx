@@ -47,7 +47,7 @@ const Icon = styled('div')`
     display: block;
   }
 
-  color: ${p => (p.type === 'success' ? p.theme.green400 : p.theme.red)};
+  color: ${p => (p.type === 'success' ? p.theme.green400 : p.theme.red400)};
 `;
 
 const Message = styled('div')`
