@@ -67,10 +67,10 @@ const Option = ({id, details, name, crashed, crashedInfo}: Props) => {
                 })}
                 position="top"
               >
-                <IconFire color="red" />
+                <IconFire color="red400" />
               </Tooltip>
             ) : (
-              <IconFire color="red" />
+              <IconFire color="red400" />
             )
           ) : (
             <IconCheckmark color="green400" size="xs" />

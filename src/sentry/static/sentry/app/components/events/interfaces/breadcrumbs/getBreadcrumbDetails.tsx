@@ -58,7 +58,7 @@ function getBreadcrumbDetails(breadcrumb: Breadcrumb): Partial<Output> {
     case BreadcrumbType.MESSAGE:
     case BreadcrumbType.ERROR: {
       return {
-        color: 'red',
+        color: 'red400',
         icon: <IconWarning />,
         renderer: <ErrorRenderer breadcrumb={breadcrumb} />,
       };
