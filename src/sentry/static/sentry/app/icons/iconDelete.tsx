@@ -14,5 +14,6 @@ const IconDelete = React.forwardRef<SVGSVGElement, Props>((props: Props, ref) =>
     <path d="M10.51,3.47l-.81-2H6.3l-.81,2L4.1,2.91,5,.77A1.26,1.26,0,0,1,6.13,0H9.87A1.26,1.26,0,0,1,11,.77l.87,2.14Z" />
   </SvgIcon>
 ));
+IconDelete.displayName = 'IconDelete';
 
 export {IconDelete};
